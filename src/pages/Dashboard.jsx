@@ -1286,7 +1286,7 @@ const Dashboard = () => {
               </h1>
             </div>
             <div className="flex items-center text-center justify-center font-semibold">
-              <ul className="grid -mb-1 max-sm:grid-cols-2 cursor-pointer grid-cols-4">
+              <ul className="flex flex-col -mb-1 cursor-pointer">
                 <li
                   className={`p-3 px-4 ${activeTab === "performance"
                     ? "atas text-sky-500 cursor-pointer font-semibold border-b-4 border-sky-500 transition-colors"
